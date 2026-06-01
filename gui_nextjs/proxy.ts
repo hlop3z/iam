@@ -30,5 +30,5 @@ export function proxy(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!api/auth|auth/error|_next/static|_next/image|.*\\.).*)"],
+  matcher: ["/((?!api/auth|api/ping|auth/error|_next/static|_next/image|.*\\.).*)"],
 };

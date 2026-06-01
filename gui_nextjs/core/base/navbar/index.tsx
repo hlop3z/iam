@@ -9,6 +9,7 @@ import PopupLink from "@/core/base/popup-link";
 const links = [
   { href: "/", label: "Home" },
   { href: "/dashboard", label: "Dashboard" },
+  { href: "/ping", label: "Ping" },
 ];
 
 function isActive(pathname: string, href: string) {
